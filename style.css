@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+    background-color: #c0c0c0;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+.card{    
+    padding: 1em;
+    height:15em;
+    width:15em;
+    border-radius: 79px;
+    background: #c0c0c0;
+    box-shadow:  19px 19px 38px #a1a1a1, 
+                 -19px 19px 38px #dfdfdf;
+ } 
