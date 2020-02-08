@@ -6,40 +6,42 @@
 body{
     background-color: #c0c0c0;
     height: 100vh;
-    margin: 20vh 20vh;
 }
 
 .container{
     display: grid;
+    grid-template-columns: repeat(minmax,1fr);
     grid-template-areas: 
     "card card card"
     "card card card"
-    "card card card"
-    ;
+    "card card card";
     justify-content: center;
     align-items: center;
-    padding: 1em;
-    height:30em;
-    width:30em;
+    margin: 30% auto;
+    grid-gap:5em;
+    height:40em;
+    width:40em;
     border-radius: 79px;
     background: #c0c0c0;
     box-shadow:  19px 19px 38px #a1a1a1, 
-                 -19px 19px 38px #dfdfdf;
+                 -19px -19px 38px #dfdfdf;
 }
 
 .card{    
-    margin: 1.8rem;
-    padding: 1em;
-    height:5em;
-    width:5em;
+
+    height:5.3em;
+    width:5.3em;
     border-radius: 79px;
-    background: #c0c0c0;
+    background-image: radial-gradient(circle, #c0c0c0, #c2c2c2, #c4c4c4, #c7c7c7, #c9c9c9);
     box-shadow:  19px 19px 38px #a1a1a1, 
-                 -19px 19px 38px #dfdfdf;
+                 -19px -19px 38px #dfdfdf;
  } 
 
  i{
-     opacity: 0.02;
+     display: block;
+     padding: 50% auto;
+     margin: 0.4em;
+     opacity: 0.07;
  }
  i:hover{
      opacity: 0.5;
